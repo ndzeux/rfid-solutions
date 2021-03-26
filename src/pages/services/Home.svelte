@@ -16,15 +16,32 @@
             RFID solutions that let you track, control and manage all critical resources
         </p> -->
     </div>
-    <div class="row center-xs">
-        <a class="box col-lg-4 col-md-4 col-sm-6 col-xs-12" href="/services/manage-services">
-            <h3 class="row middle-xs center-xs">Managed Services</h3>
+    <div class="content">
+        <h3>Managed Service System</h3>
+        <p>
             Let’s we care your whole RFID Solution system and Daily Operation in one solution. We prevent your problem before they arise and you can focus on your Strategic Business.
-        </a>
-        <a class="box col-lg-4 col-md-4 col-sm-6 col-xs-12" href="/services/professional-services">
-            <h3 class="row middle-xs center-xs">Professional Services</h3>
-            We provide a new RFID software development for specific challenges through a dedicated project. We offer professional services for business that need immediate help for a specific pain point or problem, including planning strategically for your future growth
-        </a>
+            We providing RFID Solution Service on cloud and your Premise, Our RFID Solution provide end to end solution for your operational. All the needs packed as services; deliver to our customer based on cloud and on premise.
+        </p>
+        <p>
+            Why chose the manage service?
+            <br>
+            1. Affordable cost for maintenance the system, benefit for using managed services is on cost efficiency, the company could have all own IT infrastructure and professional IT Team with huge cost but for small-medium company managed service is the best choice they no need to pay hardware, software, infrastructure , and resource
+            <br>
+            2. Increase efficiency, the huge cost for software ownership can be used for other project strategies
+            <br>
+            3. Increase Data Security handled by a professional team,
+            <br>
+            4. The solutions always update 
+            <br>
+            5. Company can focus on their business
+        </p>
+        <h3>Professional Services</h3>
+        <p>
+            We provide a new RFID software development for specific challenges through a dedicated project. We offer professional services for business that need immediate help for a specific pain point or problem, including planning strategically for your future growth.
+        </p>
+        <p>
+            <b>Our engineer will</b> help your company plan, design, implement, and manage the right technologies to improve business productivity. (From Hardware and new Technology Code), we take the complexity out of IT solution management, so you can focus more your efforts on running your business.
+        </p>
     </div>
 </div>
 
@@ -46,14 +63,12 @@
     .products h1{
         margin: 0;
     }
-    .products > .row a{
-        color: inherit;
-    }
     .products h3{
-        margin: 12px 0 4px 0;
+        margin: 12px 0 -12px 0;
     }
-    .products > .row{
-        margin: 0;
+    .products .content{
+        max-width: 800px;
+        margin: 0 auto;
     }
     @media(max-width: 600px){
         .jumbo{

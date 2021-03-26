@@ -188,7 +188,8 @@
                 </svg>
                 Solutions
             </a>
-            <a use:link style="{(currurl.indexOf('/services') > -1 ? 'color:#006588':'')}" href="/services" class="row middle-xs" on:mouseover={e => showSubMenu(e, true, 'sr')} on:mouseout="{e => showSubMenu(e, false, 'sr')}">
+            <a use:link style="{(currurl.indexOf('/services') > -1 ? 'color:#006588':'')}" href="/services" class="row middle-xs">
+                <!--  on:mouseover={e => showSubMenu(e, true, 'sr')} on:mouseout="{e => showSubMenu(e, false, 'sr')}" -->
                 <svg style="width:20px;height:20px" viewBox="0 0 24 24">
                     <path fill="currentColor" d="M18.72,14.76C19.07,13.91 19.26,13 19.26,12C19.26,11.28 19.15,10.59 18.96,9.95C18.31,10.1 17.63,10.18 16.92,10.18C13.86,10.18 11.15,8.67 9.5,6.34C8.61,8.5 6.91,10.26 4.77,11.22C4.73,11.47 4.73,11.74 4.73,12A7.27,7.27 0 0,0 12,19.27C13.05,19.27 14.06,19.04 14.97,18.63C15.54,19.72 15.8,20.26 15.78,20.26C14.14,20.81 12.87,21.08 12,21.08C9.58,21.08 7.27,20.13 5.57,18.42C4.53,17.38 3.76,16.11 3.33,14.73H2V10.18H3.09C3.93,6.04 7.6,2.92 12,2.92C14.4,2.92 16.71,3.87 18.42,5.58C19.69,6.84 20.54,8.45 20.89,10.18H22V14.67H22V14.69L22,14.73H21.94L18.38,18L13.08,17.4V15.73H17.91L18.72,14.76M9.27,11.77C9.57,11.77 9.86,11.89 10.07,12.11C10.28,12.32 10.4,12.61 10.4,12.91C10.4,13.21 10.28,13.5 10.07,13.71C9.86,13.92 9.57,14.04 9.27,14.04C8.64,14.04 8.13,13.54 8.13,12.91C8.13,12.28 8.64,11.77 9.27,11.77M14.72,11.77C15.35,11.77 15.85,12.28 15.85,12.91C15.85,13.54 15.35,14.04 14.72,14.04C14.09,14.04 13.58,13.54 13.58,12.91A1.14,1.14 0 0,1 14.72,11.77Z"></path>
                 </svg>
@@ -361,18 +362,19 @@
                     Asset Tracking
                 </a>
             </div>
-            <a use:link href="/services" class="row middle-xs" on:mouseover={e => showSubMenu(e, true, 'sr')} on:mouseout="{e => showSubMenu(e, false, 'sr')}">
+            <a use:link href="/services" class="row middle-xs">
+                <!--  on:mouseover={e => showSubMenu(e, true, 'sr')} on:mouseout="{e => showSubMenu(e, false, 'sr')}" -->
                 <svg style="width:20px;height:20px" viewBox="0 0 24 24">
                     <path fill="currentColor" d="M18.72,14.76C19.07,13.91 19.26,13 19.26,12C19.26,11.28 19.15,10.59 18.96,9.95C18.31,10.1 17.63,10.18 16.92,10.18C13.86,10.18 11.15,8.67 9.5,6.34C8.61,8.5 6.91,10.26 4.77,11.22C4.73,11.47 4.73,11.74 4.73,12A7.27,7.27 0 0,0 12,19.27C13.05,19.27 14.06,19.04 14.97,18.63C15.54,19.72 15.8,20.26 15.78,20.26C14.14,20.81 12.87,21.08 12,21.08C9.58,21.08 7.27,20.13 5.57,18.42C4.53,17.38 3.76,16.11 3.33,14.73H2V10.18H3.09C3.93,6.04 7.6,2.92 12,2.92C14.4,2.92 16.71,3.87 18.42,5.58C19.69,6.84 20.54,8.45 20.89,10.18H22V14.67H22V14.69L22,14.73H21.94L18.38,18L13.08,17.4V15.73H17.91L18.72,14.76M9.27,11.77C9.57,11.77 9.86,11.89 10.07,12.11C10.28,12.32 10.4,12.61 10.4,12.91C10.4,13.21 10.28,13.5 10.07,13.71C9.86,13.92 9.57,14.04 9.27,14.04C8.64,14.04 8.13,13.54 8.13,12.91C8.13,12.28 8.64,11.77 9.27,11.77M14.72,11.77C15.35,11.77 15.85,12.28 15.85,12.91C15.85,13.54 15.35,14.04 14.72,14.04C14.09,14.04 13.58,13.54 13.58,12.91A1.14,1.14 0 0,1 14.72,11.77Z"></path>
                 </svg>
                 Services
-                <button class="row middle-xs center-xs" on:click|preventDefault={e => showSubMenu3(e, 'sr')}>
+                <!-- <button class="row middle-xs center-xs" on:click|preventDefault={e => showSubMenu3(e, 'sr')}>
                     <svg style="width:28px;height:28px;pointer-events:none;transform:rotate(0);transition:transform .3s" viewBox="0 0 24 24">
                         <path fill="currentColor" d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
                     </svg>
-                </button>
+                </button> -->
             </a>
-            <div class="servicessubmenu">
+            <!-- <div class="servicessubmenu">
                 <a use:link href="/service/managed-services" class="row middle-xs">
                     <svg style="width:20px;min-width:20px;height:20px;margin-right: 5px" viewBox="0 0 24 24">
                         <path fill="currentColor" d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
@@ -385,7 +387,7 @@
                     </svg>
                     Professional Services
                 </a>
-            </div>
+            </div> -->
             <a use:link href="/" class="row middle-xs" on:mouseover={e => showSubMenu(e, true, 'in')} on:mouseout="{e => showSubMenu(e, false, 'in')}">
                 <svg style="width:20px;height:16px" viewBox="0 0 24 24">
                     <path fill="currentColor" d="M19 3V21H13V17.5H11V21H5V3H19M15 7H17V5H15V7M11 7H13V5H11V7M7 7H9V5H7V7M15 11H17V9H15V11M11 11H13V9H11V11M7 11H9V9H7V11M15 15H17V13H15V15M11 15H13V13H11V15M7 15H9V13H7V15M15 19H17V17H15V19M7 19H9V17H7V19M21 1H3V23H21V1Z"></path>

@@ -120,8 +120,8 @@
 		<Route path="/products/2-45g-active-rfid"><P8 /></Route>
 		<Route path="/solutions"><Solutions /></Route>
 		<Route path="/services"><Services /></Route>
-		<Route path="/services/manage-services"><ManageServices /></Route>
-		<Route path="/services/professional-services"><ProfessionalServices /></Route>
+		<!-- <Route path="/services/managed-services"><ManageServices /></Route> -->
+		<!-- <Route path="/services/professional-services"><ProfessionalServices /></Route> -->
 		<Route path="/case-studies"><CaseStudies /></Route>
 		<Route path="/case-studies/rfid-for-stock-monitoring"><CS1 /></Route>
 		<Route path="/case-studies/rfid-for-faster-inbound-outbound-cashier-process"><CS2 /></Route>
