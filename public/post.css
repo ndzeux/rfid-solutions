@@ -1,0 +1,87 @@
+/* post */
+.post > div{
+    margin: 8px 0 0 0
+}
+.post h1{
+    font-size: xx-large;
+    line-height: normal;
+    margin: 0 0 4px 0;
+}
+.post h2{
+    font-size: x-large;
+    line-height: normal;
+    margin: 8px 0 4px 0;
+}
+.post h3, .post h4{
+    font-size: large;
+} 
+.post img{
+    max-width: 100%;
+}
+@media(max-width: 1024px){
+    .post h1{
+        font-size: x-large;
+    }
+    .post h2{
+        font-size: large;
+    }
+}
+
+.blog .img{
+    max-height: 250px;
+    min-height: 250px;
+    margin-bottom: 12px;
+}
+.blog img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 16px;
+}
+.blog .row > div{
+    padding: 12px;
+}
+.blog .row > div a{
+    font-size: 18px;
+    color: #444;
+    transition: color .3s
+}
+.blog .row > div a:hover{
+    color: #0babeb;
+}
+
+/* editor */
+.editor img{
+    width: 100%;
+    max-width: 600px;
+}
+.editor h2, h3, h4{
+    margin: 0;
+}
+.editor ul, .editor ol{
+    margin: 0 0 0 16px;
+    padding: 0;
+}
+.post .table-box, .editor .table-box{
+    width: 100%;
+    overflow: auto;
+}
+.post table ,.editor table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.post table th, .post table td, .editor table th, .editor table td{
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+    padding: 12px 8px;
+    vertical-align: top;
+    text-align: left;
+}
+.post table img, .editor table img{
+    min-width: 200px;
+    max-width: 300px;
+}
+.input img{
+    width: 50%;
+    max-width: 300px;
+    min-width: 150px;
+}

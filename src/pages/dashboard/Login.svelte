@@ -40,7 +40,7 @@
         let data = {
             email, password
         }
-        fetch(host + '/login', {
+        fetch('/login', {
             method: "POST",
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(data)
